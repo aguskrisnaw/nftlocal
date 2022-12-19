@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
-        <p className="text-4xl font-bold">Metaverse Marketplace</p>
+        <p className="text-4xl font-bold">Material Metric Marketplace</p>
         <div className="flex mt-4">
           <Link legacyBehavior href="/">
             <a className="mr-4 text-pink-500">
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
           <Link legacyBehavior href="/create-nft">
             <a className="mr-6 text-pink-500">
-              Sell NFT
+              Generate Material NFT
             </a>
           </Link>
           <Link legacyBehavior href="/my-nfts">
